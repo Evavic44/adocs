@@ -87,7 +87,7 @@ Finally, the documentation site can be served on a local server by running the c
 npm run docs:dev
 ```
 
-This will start a hot-reloading development server at http://localhost:5173, and you can visit it to see your docs site.
+This will start a hot-reloading development server at `http://localhost:5173`, and you can visit it to see your docs site.
 
 ### Output
 
@@ -155,13 +155,13 @@ Customizing the `Navbar` is a pretty straightforward process as well. Inside you
     { text: "Contact", link: "/contact" },
     { text: "Guide", link: "/guide" },
     { text: "Configs", link: "/configs" },
-    { text: "Changelog", link: "https://github.com/..." },
+    { text: "Changelog", link: "https://github.com/Evavic44" },
   ],
   // ...
 }
 ```
 
-Essentially navigating to [localhost:5173/about](localhost:5173/about) should take you to an about page(though we haven't created that yet).
+Essentially navigating to `http://localhost:5173/about` should take you to an about page(though we haven't created that yet).
 
 ### Output
 
@@ -196,7 +196,7 @@ Navigation menus usually have social icons visitors can use to visit your social
 socialLinks: [
   { icon: "github", link: "https://github.com/Evavic44/adocs" },
   { icon: "twitter", link: "https://twitter.com/victorekea" },
-  { icon: "discord", link: "..." },
+  { icon: "discord", link: "", target: "_blank" },
 ];
 ```
 
