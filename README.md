@@ -1,10 +1,9 @@
 <div align="center">
-  <img src="https://adocs.vercel.app/logo-big.svg" width="50px" height="50px" alt="adocs logo" />
+  <img src="https://adocs.vercel.app/logo-big.svg" width="100px" height="100px" alt="adocs logo" />
   <h1>Adocs</h1>
-  <p>An open source docs template built using VitePress(Vite & VueJS)</p>
+  <p>A docs template built using <a href="https://vitepress.vuejs.org">VitePress</a></p>
+  <p>This repository serves as a resource for the tutorial, <a href="https://google.com) posted on [freeCodeCamp](https://freecodecamp.org">How to build modern docs with VitePress</a></p>
 </div>
-
-This repository serves as a resource for the tutorial, [How to build modern docs with VitePress](https://google.com) posted on [freeCodeCamp](https://freecodecamp.org).
 
 ## Run project locally
 
@@ -18,6 +17,15 @@ cd adocs
 npm install
 
 npm run docs:dev
+```
+
+Visit [https://localhost:5173](https://localhost:5173) to see your site
+
+## Build
+You may run this command to build the docs
+
+```bash
+npm run docs:build
 ```
 
 ## Folder Structure
@@ -41,5 +49,3 @@ docs/
 ├── package.json
 └── README.md
 ```
-
-Visit [https://localhost:5173](https://localhost:5173) to see your site
