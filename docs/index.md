@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /about
+      link: /guide
     - theme: alt
       text: View on GitHub
-      link: https://github.com/evavic44/adocs-template
+      link: https://github.com/Evavic44/adocs
 
 # Features section
 features:
