@@ -63,5 +63,5 @@ head:
   <h1>🏀</h1>
   <h1>Custom Layout</h1>
   <p>This section was added using plain HTML and CSS.</p>
-  <a href="https://github.com/Evavic44/adocs/docs/index.md" target="_blank" class="btn">Source Code</a>
+  <a href="https://github.com/Evavic44/adocs/blob/main/docs/index.md#custom-layout" target="_blank" class="btn">Source Code</a>
 </div>
