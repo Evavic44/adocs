@@ -44,6 +44,12 @@ If you used the first command, you'll be prompted with certain questions, comple
 
 Next step is to add VitePress and Vue as dev dependencies to your project.
 
+```bash
+npm install vue vitepress --save-dev
+// or
+npm install -D vue vitepress
+```
+
 You've successfully installed VitePress and Vue and added it as a dev dependency. Now you can start creating creating your respective doc files, but before you do that, I believe it's essential to explain how VitePress works.
 
 ## How does VitePress work?
