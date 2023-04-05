@@ -8,7 +8,7 @@ Documentation is a crucial aspect of software development that is often neglecte
 
 ## Definition
 
-[VitePress](https://vitepress.vuejs.org/) is a simple and performant static site generator built on top of [Vite](https://vitejs.dev) for creating docs in a matter of minutes. It is powered by [Vuejs](https://vuejs.org/), and Vite with built in customizable components. VitePress powers some popular documentation sites like Vuejs, [Vitest](https://vitest.dev/), [faker.js](https://faker.js/dev), and Vite itself.
+[VitePress](https://vitepress.vuejs.org/) is a simple and performant static site generator built on top of [Vite](https://vitejs.dev) for creating docs in a matter of minutes. It is powered by [Vuejs](https://vuejs.org/), and Vite with built in customizable components. VitePress powers some popular documentation sites like Vuejs, [Vitest](https://vitest.dev/), [faker.js](https://fakerjs.dev/), and Vite itself.
 
 ## Prerequisites
 
@@ -43,6 +43,12 @@ If you used the first command, you'll be prompted with certain questions, comple
 ## Step. 2: Install VitePress
 
 Next step is to add VitePress and Vue as dev dependencies to your project.
+
+```bash
+npm install vue vitepress --save-dev
+// or
+npm install -D vue vitepress
+```
 
 You've successfully installed VitePress and Vue and added it as a dev dependency. Now you can start creating creating your respective doc files, but before you do that, I believe it's essential to explain how VitePress works.
 
