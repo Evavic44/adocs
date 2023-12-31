@@ -5,6 +5,9 @@ export default {
   themeConfig: {
     logo: "/logo.svg",
     siteTitle: "Adocs",
+    search: {
+      provider: "local",
+    },
     // Navbar Link
     nav: [
       { text: "About", link: "/about" },
