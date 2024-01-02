@@ -30,7 +30,7 @@ export default {
     ],
     // Social Icons
     socialLinks: [
-      { icon: "github", link: "github.com/evavic44" },
+      { icon: "github", link: "https://github.com/Evavic44/adocs" },
       { icon: "twitter", link: "https://twitter.com/victorekea" },
       { icon: "discord", link: "..." },
       {
@@ -71,6 +71,10 @@ export default {
     docFooter: {
       prev: false,
       next: true,
+    },
+    editLink: {
+      pattern: 'https://github.com/Evavic44/adocs/main/docs/edit/master/docs/:path',
+      text: 'Edit this page on GitHub'
     },
     footer: {
       message: "Released under the MIT License.",
