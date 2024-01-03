@@ -73,7 +73,7 @@ export default {
       next: true,
     },
     editLink: {
-      pattern: 'https://github.com/Evavic44/adocs/main/docs/edit/master/docs/:path',
+      pattern: 'https://github.com/Evavic44/adocs/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
     footer: {
