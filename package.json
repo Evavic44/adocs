@@ -2,7 +2,8 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -12,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.27",
-    "vue": "^3.2.41"
+    "vitepress": "^1.0.0-rc.45",
+    "vue": "^3.4.21"
   }
 }
